@@ -1,7 +1,9 @@
+import LoginForm from './login-form'
+
 function loginPage() {
   return (
-    <div className=''>
-      login page 
+    <div className="flex-center vertical-center">
+      <LoginForm />
     </div>
   )
 }

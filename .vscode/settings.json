@@ -31,5 +31,8 @@
     "postcss.config.mjs",
     "README.md",
     "tsconfig.json"
-  ]
+  ],
+  "editor.showUnused": true,
+  "markdown.validate.unusedLinkDefinitions.enabled": "hint",
+  "cSpell.ignoreWords": ["mdio"]
 }

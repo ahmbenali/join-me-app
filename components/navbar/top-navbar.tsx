@@ -15,9 +15,9 @@ function TopNavbar() {
       classNames={{
         item: [
           'text-xl',
-          'text-white',
+          'text-gray-300',
           'uppercase',
-          'data-[active=true]:text-yellow-200',
+          'data-[active=true]:text-cyan-400',
         ],
       }}
     >
@@ -35,11 +35,11 @@ function TopNavbar() {
       </NavbarBrand>
 
       <NavbarContent justify="center">
-        {navItems.map(item => (
+        {navItems.map(({href, label}) => (
           <NavLink
-            key={item.href}
-            href={item.href}
-            label={item.label}
+            key={href}
+            href={href}
+            label={label}
           />
         ))}
       </NavbarContent>
